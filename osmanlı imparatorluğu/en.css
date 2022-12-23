@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kolker+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poor+Story&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+    background-color: black;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom:1px solid rgb(255, 255, 255);
+}
+header > h3{
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kolker Brush', cursive;
+    color: white;
+    font-size: 40px;
+}
+header > a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin-top: 10px;
+    font-family: Lato;
+}
+header > a:hover{
+    color: yellow;
+}
+main{
+    padding: 25px;
+
+}
+main > section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 25px;
+    background-color: rgb(36, 36, 36);
+    margin-inline-end: 20px;
+}
+main > section > h3{
+    color: white;
+    font-family:Poor Story;
+    font-size: 30px;
+}
+main > section >img{
+    height: 200px;
+    width: 150px;
+    border-radius: 5px;
+    margin: 10px;
+    
+}
+main > section > h4{
+    color: white;
+    font-family:Poor Story;
+     font-size: 25px;
+   margin: 20px;
+}
+main > section > p{
+    color: white;
+    font-family: Lato;
+    font-size: 18px;
+}

@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kolker+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital@1&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 1fr 5fr;
+ background-color: black;
+}
+header{
+    border-bottom: 1px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}
+header > h3{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+img{
+    height: 220px;
+    width: 200px;
+   cursor: pointer;
+}
+.main{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+h5{
+    color:white;
+    font-family:Poor Story;
+    font-size: 25px;
+   margin: 30px;
+}
+p{
+    color: rgb(218, 218, 218);
+    font-size: 18px;
+    font-family: Lato;
+    margin-top: 20px;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-family: Lato;
+   
+}
+a:hover{
+    color:yellow;
+}
+.res{
+    height: 200px;
+    width: 300px;
+    border-radius: 3px;
+    margin: 20px;
+}
+.rese{
+    height: 200px;
+    width: 400px;
+    border-radius: 3px;
+    margin: 20px;
+}
+.resem{
+    height: 250px;
+    width: 400px;
+    border-radius: 3px;
+    margin: 20px;
+}

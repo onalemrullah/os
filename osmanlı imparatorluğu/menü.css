@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kolker+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-areas: "header" "main";
+    grid-template-rows: 1fr 5fr;
+    background-color: black;
+}
+header{
+    grid-area: header;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 80px;
+    padding-right: 80px;
+    align-items: center;
+   flex-wrap: wrap;
+    min-height: 120px;
+    height: auto;
+}
+main{
+    grid-area: main;
+
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    height: auto;
+    flex-wrap:wrap;
+}
+header > h3{
+    color: white;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Kolker Brush', cursive;
+    font-size: 40px;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+ul > li {
+    margin-right: 20px;
+}
+ul > li >a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-family: 'Fira Sans', sans-serif;
+}
+a:hover{
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    padding-bottom: 3px;
+    padding-top: 3px;
+}
+h3:hover{
+ font-size: 42px;
+}
+h4{
+    font-family: Dancing Script;
+    color:white;
+    font-size: 30px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.resim{
+    height: 610px;
+    width: 550px;
+    cursor: pointer;
+}
+.resim:hover{
+    height: 620px;
+    width: 560px;
+}
+h4:hover{
+    font-size: 32px;
+}
+section{
+  margin-top: 300px;
+  padding: 30px;
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.hanedan{
+    border-radius: 10px;
+    cursor: pointer;
+}

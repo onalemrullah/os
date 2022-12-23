@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Poor+Story&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Lato:ital@1&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: black;
+}
+header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    min-width: 1000px;
+   background-color: black;
+   flex-direction: column;
+}
+header > h4{
+    color:white;
+    font-family: Dancing Script;
+    font-size: 30px;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 30px;
+    background-color: black;
+    height: auto;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+    padding: 20px;
+}
+.resim{
+    height: 200px;
+    width: 300px;
+}
+h4{
+    color:white;
+    font-family:Poor Story;
+    font-size: 30px;
+}
+p{
+    color: white;
+    font-size: 18px;
+    font-family: Lato;
+}
+.menü{
+    color:white;
+    text-decoration: none;
+    font-family: Dancing Script;
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    font-family: Lato;
+    margin-top: 5px;
+}
+a:hover{
+    color: yellow;
+}
+@media (max-width:400px){
+    main > section > .resim{
+        height: 150px;
+        width: 250px;
+    }
+}
